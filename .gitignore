@@ -35,12 +35,22 @@ wheels/
 *~
 .DS_Store
 
-# Data (optional - comment out if you want to include datasets)
-# *.csv
+# Large data files
+imdb_reviews.csv
+*.pkl
+*.pth
+*.h5
 
-# Models (optional - include if needed)
-# *.pkl
-# *.joblib
+# HTML dashboards
+*.html
+
+# LaTeX/Presentation files
+slide/
+Guide/
+
+# Extra outputs
+outputs/*_api.png
+outputs/*sentiment*.png
 
 # Testing
 .pytest_cache/
@@ -49,3 +59,4 @@ htmlcov/
 
 # Misc
 *.log
+sentiment_analysis.py
